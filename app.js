@@ -38,6 +38,7 @@ app.get('/:width/:height/:id', function (req, res) {
   }
 
   gm('logo.png')
+    .options({ imageMagick: true })
     .extent(w, h)
     .colorize(rand255(), rand255(), rand255())
     .autoOrient()
