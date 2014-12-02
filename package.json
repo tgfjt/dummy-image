@@ -1,11 +1,12 @@
 {
   "name": "dummy-image",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "app.js",
   "scripts": {
     "start": "node app"
   },
+  "private": true,
   "author": "tgfjt",
   "license": "MIT",
   "dependencies": {
@@ -15,5 +16,8 @@
     "gm": "^1.17.0",
     "helmet": "^0.5.2",
     "method-override": "^2.3.0"
+  },
+  "engines": {
+    "node": "~0.10.21"
   }
 }
