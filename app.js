@@ -42,7 +42,6 @@ app.get('/:width/:height/:id', function (req, res) {
     .extent(w, h)
     .colorize(rand255(), rand255(), rand255())
     .autoOrient()
-    .flatten()
     .stream(function (err, stdout, stderr) {
       if (err) console.log(err, stderr)
       else stdout.pipe(res)
