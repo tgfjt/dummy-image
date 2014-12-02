@@ -1,0 +1,9 @@
+{
+  "name": "Dummy Image",
+  "description": "To Get A Dummy Png.",
+  "repository": "https://github.com/tgfjt/dummy-image",
+  "keywords": ["dummy", "image"],
+  "env": {
+    "BUILDPACK_URL":  "https://github.com/ddollar/heroku-buildpack-multi"
+  }
+}
