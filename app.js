@@ -37,6 +37,8 @@ app.get('/:width/:height/:id', function (req, res) {
     res.status(500).send('Bad Param!')
   }
 
+  res.setHeader('Content-Type', 'image/png')
+
   gm('logo.png')
     .options({ imageMagick: true })
     .extent(w, h)
