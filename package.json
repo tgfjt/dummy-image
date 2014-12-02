@@ -1,0 +1,19 @@
+{
+  "name": "dummy-image",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "tgfjt",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.9.3",
+    "compression": "^1.2.1",
+    "express": "^4.10.4",
+    "gm": "^1.17.0",
+    "helmet": "^0.5.2",
+    "method-override": "^2.3.0"
+  }
+}
