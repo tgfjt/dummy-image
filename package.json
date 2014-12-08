@@ -4,20 +4,22 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app"
+    "start": "6to5-node app.js"
   },
   "private": true,
   "author": "tgfjt",
   "license": "MIT",
   "dependencies": {
+    "6to5": "^1.14.17",
     "body-parser": "^1.9.3",
     "compression": "^1.2.1",
     "express": "^4.10.4",
     "gm": "^1.17.0",
     "helmet": "^0.5.2",
-    "method-override": "^2.3.0"
+    "method-override": "^2.3.0",
+    "morgan": "^1.5.0"
   },
   "engines": {
-    "node": "~0.10.21"
+    "node": "^0.11.9"
   }
 }
