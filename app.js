@@ -11,7 +11,7 @@ const helmet = require('helmet')
 const app = module.exports = express()
 const port = process.env.PORT || 5000
 
-const rand255 = () => Math.floor(Math.random() * 255)
+const rand255 = () => Math.floor(Math.random() * 200)
 
 app
   .use(morgan('combined'))
